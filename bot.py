@@ -9,10 +9,10 @@ from plugins import web_server
 import pyrogram.utils
 from aiohttp import web
 
-pyrogram.utils.MIN_CHANNEL_ID = -1002449417637
+pyrogram.utils.MIN_CHANNEL_ID = -1003515041061
 
 name = """
-Link share bot started ✨ Credit:- @CantarellaBots
+Link share bot started ✨ Credit:- @anujedits76
 """
 
 class Bot(Client):
@@ -86,14 +86,14 @@ class Bot(Client):
                 photo="https://ibb.co/DH3N4Lyr",
                 caption=("**I ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ !**"),
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/CantarellaBots")]]
+                    [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/log_channel_a")]]
                 )
             )
         except Exception as e:
             self.LOGGER(__name__).warning(f"Failed to send bot start message in {DATABASE_CHANNEL}: {e}")
         
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info("Wew...Bot is running...⚡  Credit:- @CantarellaBots")
+        self.LOGGER(__name__).info("Wew...Bot is running...⚡  Credit:- @anujedits76")
         self.LOGGER(__name__).info(f"{name}")
         self.username = usr_bot_me.username
         
