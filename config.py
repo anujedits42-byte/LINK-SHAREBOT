@@ -5,11 +5,11 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8782602917:AAGFC8gqMFtctFp8PXd2rd7jOWfrywtR1sY")
-BOT_USERNAME = 'CantarellaBots'
+BOT_USERNAME = 'link_share_ak_bot'
 APP_ID = int(os.environ.get("APP_ID", "34446649"))
 API_HASH = os.environ.get("API_HASH", "8dc570c08d8e35e88fb9bfc73c65d7fa")
 OWNER_ID = int(os.environ.get("OWNER_ID", "7892805795"))
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "5000")
 DB_URL = os.environ.get("DB_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Anujedit")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
